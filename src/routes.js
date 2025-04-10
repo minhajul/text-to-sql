@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
 
         res.status(200).json({
             status: 'ok',
-            data: data.query
+            query: data.query
         });
     } catch (err) {
         res.status(500).json({
