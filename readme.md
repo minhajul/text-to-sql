@@ -1,8 +1,8 @@
-# Text-to-SQL Node.js App
+## Text-to-SQL Node.js App
 
 This is a simple Node.js application that converts natural language queries into SQL using an AI model via the Hugging Face API.
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 Follow these steps to run the app locally.
 
@@ -18,7 +18,7 @@ cd text-to-sql
 
 
 ### 3. Create a ```.env``` File
-Create a ```.env``` file in the root directory and add the following environment variables:
+Run this ```cp .env.example .env``` command to create a ```.env``` file with the example from ```.env.example```:
 
 ```
 AI_MODEL=your-model-name
