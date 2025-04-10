@@ -1,0 +1,24 @@
+{
+  "name": "text-to-sql",
+  "version": "1.0.0",
+  "description": "Generate sql query from text",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/inference": "^2.8.1",
+    "@langchain/community": "^0.3.39",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.93.0"
+  }
+}
