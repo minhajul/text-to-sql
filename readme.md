@@ -17,7 +17,7 @@ cd text-to-sql
 ```npm install```
 
 
-### Create a ```.env``` File
+### 3. Create a ```.env``` File
 Create a ```.env``` file in the root directory and add the following environment variables:
 
 ```
@@ -48,4 +48,4 @@ Response:
 }
 ```
 
-## Made with ❤️ by [[minhajul](https://github.com/minhajul)]
+### Made with ❤️ by [[minhajul](https://github.com/minhajul)]
