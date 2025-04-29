@@ -4,11 +4,12 @@ import 'dotenv/config';
 import dotenv from 'dotenv';
 import bodyParser from "body-parser";
 import routes from "./routes.js";
+import helmet from "helmet";
 
 dotenv.config();
 
 const app = express();
-
+app.use(helmet());
 app.use(bodyParser.json());
 
 app.use(express.json());
